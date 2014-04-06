@@ -1,0 +1,24 @@
+h1 Signup
+
+- if flash[:error]  
+  .alert.alert-error
+    button type="button" class="close" data-dismiss="alert" &times;
+    ul
+      - flash[:error].each do |error|
+        li == error
+
+form action="/signup" method="post"
+
+  label for="user[username]" Username
+  input type="text" name="user[username]" value="#{params[:username]}" required=""
+
+  label for="user[email]" Email
+  input type="email" name="user[email]" value="#{params[:email]}" required=""
+
+  label for="user[password]" Password
+  input type="password" name="user[password]" required=""
+
+  label for="user[password_confirmation]" Password Confirmation
+  input.input_text type="password" name="user[password_confirmation]" required=""
+  br
+  button type="submit" Register

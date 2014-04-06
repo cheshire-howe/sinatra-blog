@@ -1,0 +1,812 @@
+# Logfile created on 2014-01-02 20:25:05 -0800 by logger.rb/41954
+I, [2014-01-02T20:25:05.583801 #4016]  INFO -- : 0:  addressable (2.3.5) from C:/Ruby200-x64/lib/ruby/gems/2.0.0/specifications/addressable-2.3.5.gemspec
+I, [2014-01-02T20:25:07.799932 #4016]  INFO -- : 0:  backports (3.3.5) from C:/Ruby200-x64/lib/ruby/gems/2.0.0/specifications/backports-3.3.5.gemspec
+I, [2014-01-02T20:25:09.101038 #4016]  INFO -- : 0:  bcrypt-ruby (3.1.2) from C:/Ruby200-x64/lib/ruby/gems/2.0.0/specifications/bcrypt-ruby-3.1.2-x64-mingw32.gemspec
+E, [2014-01-02T20:25:09.771052 #4016] ERROR -- : Gem::InstallError: The 'bond' native gem requires installed build tools.
+
+Please update your PATH to include build tools or download the DevKit
+from 'http://rubyinstaller.org/downloads' and follow the instructions
+at 'http://github.com/oneclick/rubyinstaller/wiki/Development-Kit'
+
+C:/Ruby200-x64/lib/ruby/2.0.0/rubygems/defaults/operating_system.rb:12:in `rescue in block in <top (required)>'  \nC:/Ruby200-x64/lib/ruby/2.0.0/rubygems/defaults/operating_system.rb:4:in `block in <top (required)>'  \nC:/Ruby200-x64/lib/ruby/2.0.0/rubygems/installer.rb:253:in `call'  \nC:/Ruby200-x64/lib/ruby/2.0.0/rubygems/installer.rb:253:in `block in run_pre_install_hooks'  \nC:/Ruby200-x64/lib/ruby/2.0.0/rubygems/installer.rb:252:in `each'  \nC:/Ruby200-x64/lib/ruby/2.0.0/rubygems/installer.rb:252:in `run_pre_install_hooks'  \nC:/Ruby200-x64/lib/ruby/2.0.0/rubygems/installer.rb:218:in `install'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:101:in `block in install'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:94:in `install'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:295:in `block in install_sequentially'  \nC:/Ruby200-x64/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \nC:/Ruby200-x64/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:294:in `install_sequentially'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:97:in `run'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:15:in `install'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/cli.rb:257:in `install'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/command.rb:27:in `run'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor.rb:363:in `dispatch'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/base.rb:438:in `start'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/cli.rb:10:in `start'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/bin/bundle:22:in `block in <top (required)>'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/bin/bundle:22:in `<top (required)>'  \nC:/Ruby200-x64/bin/bundle:23:in `load'  \nC:/Ruby200-x64/bin/bundle:23:in `<main>'
+I, [2014-01-02T20:31:29.437736 #680]  INFO -- : 0:  addressable (2.3.5) from C:/Ruby200-x64/lib/ruby/gems/2.0.0/specifications/addressable-2.3.5.gemspec
+I, [2014-01-02T20:31:29.439736 #680]  INFO -- : 0:  backports (3.3.5) from C:/Ruby200-x64/lib/ruby/gems/2.0.0/specifications/backports-3.3.5.gemspec
+I, [2014-01-02T20:31:29.440735 #680]  INFO -- : 0:  bcrypt-ruby (3.1.2) from C:/Ruby200-x64/lib/ruby/gems/2.0.0/specifications/bcrypt-ruby-3.1.2-x64-mingw32.gemspec
+E, [2014-01-02T20:31:29.464738 #680] ERROR -- : Gem::InstallError: The 'bond' native gem requires installed build tools.
+
+Please update your PATH to include build tools or download the DevKit
+from 'http://rubyinstaller.org/downloads' and follow the instructions
+at 'http://github.com/oneclick/rubyinstaller/wiki/Development-Kit'
+
+C:/Ruby200-x64/lib/ruby/2.0.0/rubygems/defaults/operating_system.rb:12:in `rescue in block in <top (required)>'  \nC:/Ruby200-x64/lib/ruby/2.0.0/rubygems/defaults/operating_system.rb:4:in `block in <top (required)>'  \nC:/Ruby200-x64/lib/ruby/2.0.0/rubygems/installer.rb:253:in `call'  \nC:/Ruby200-x64/lib/ruby/2.0.0/rubygems/installer.rb:253:in `block in run_pre_install_hooks'  \nC:/Ruby200-x64/lib/ruby/2.0.0/rubygems/installer.rb:252:in `each'  \nC:/Ruby200-x64/lib/ruby/2.0.0/rubygems/installer.rb:252:in `run_pre_install_hooks'  \nC:/Ruby200-x64/lib/ruby/2.0.0/rubygems/installer.rb:218:in `install'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:101:in `block in install'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:94:in `install'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:295:in `block in install_sequentially'  \nC:/Ruby200-x64/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \nC:/Ruby200-x64/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:294:in `install_sequentially'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:97:in `run'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:15:in `install'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/cli.rb:257:in `install'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/command.rb:27:in `run'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor.rb:363:in `dispatch'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/base.rb:438:in `start'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/cli.rb:10:in `start'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/bin/bundle:22:in `block in <top (required)>'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/bin/bundle:22:in `<top (required)>'  \nC:/Ruby200-x64/bin/bundle:23:in `load'  \nC:/Ruby200-x64/bin/bundle:23:in `<main>'
+I, [2014-01-02T20:41:03.824059 #2204]  INFO -- : 0:  addressable (2.3.5) from C:/Ruby200-x64/lib/ruby/gems/2.0.0/specifications/addressable-2.3.5.gemspec
+I, [2014-01-02T20:41:03.826116 #2204]  INFO -- : 0:  backports (3.3.5) from C:/Ruby200-x64/lib/ruby/gems/2.0.0/specifications/backports-3.3.5.gemspec
+I, [2014-01-02T20:41:03.828106 #2204]  INFO -- : 0:  bcrypt-ruby (3.1.2) from C:/Ruby200-x64/lib/ruby/gems/2.0.0/specifications/bcrypt-ruby-3.1.2-x64-mingw32.gemspec
+E, [2014-01-02T20:41:03.854105 #2204] ERROR -- : Gem::InstallError: The 'bond' native gem requires installed build tools.
+
+Please update your PATH to include build tools or download the DevKit
+from 'http://rubyinstaller.org/downloads' and follow the instructions
+at 'http://github.com/oneclick/rubyinstaller/wiki/Development-Kit'
+
+C:/Ruby200-x64/lib/ruby/2.0.0/rubygems/defaults/operating_system.rb:12:in `rescue in block in <top (required)>'  \nC:/Ruby200-x64/lib/ruby/2.0.0/rubygems/defaults/operating_system.rb:4:in `block in <top (required)>'  \nC:/Ruby200-x64/lib/ruby/2.0.0/rubygems/installer.rb:253:in `call'  \nC:/Ruby200-x64/lib/ruby/2.0.0/rubygems/installer.rb:253:in `block in run_pre_install_hooks'  \nC:/Ruby200-x64/lib/ruby/2.0.0/rubygems/installer.rb:252:in `each'  \nC:/Ruby200-x64/lib/ruby/2.0.0/rubygems/installer.rb:252:in `run_pre_install_hooks'  \nC:/Ruby200-x64/lib/ruby/2.0.0/rubygems/installer.rb:218:in `install'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:101:in `block in install'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:94:in `install'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:295:in `block in install_sequentially'  \nC:/Ruby200-x64/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \nC:/Ruby200-x64/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:294:in `install_sequentially'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:97:in `run'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:15:in `install'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/cli.rb:257:in `install'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/command.rb:27:in `run'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor.rb:363:in `dispatch'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/base.rb:438:in `start'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/cli.rb:10:in `start'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/bin/bundle:22:in `block in <top (required)>'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \nC:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/bin/bundle:22:in `<top (required)>'  \nC:/Ruby200-x64/bin/bundle:23:in `load'  \nC:/Ruby200-x64/bin/bundle:23:in `<main>'
+I, [2014-01-02T20:47:28.288039 #2392]  INFO -- : 0:  addressable (2.3.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/addressable-2.3.5.gemspec
+I, [2014-01-02T20:47:28.290029 #2392]  INFO -- : 0:  backports (3.3.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/backports-3.3.5.gemspec
+I, [2014-01-02T20:47:28.292027 #2392]  INFO -- : 0:  bcrypt-ruby (3.1.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bcrypt-ruby-3.1.2-x64-mingw32.gemspec
+I, [2014-01-02T20:47:28.675054 #2392]  INFO -- : 0:  bond (0.4.3) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bond-0.4.3.gemspec
+I, [2014-01-02T20:47:30.862192 #2392]  INFO -- : 0:  sass (3.2.12) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/sass-3.2.12.gemspec
+I, [2014-01-02T20:47:32.177261 #2392]  INFO -- : 0:  thor (0.18.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/thor-0.18.1.gemspec
+I, [2014-01-02T20:47:33.381356 #2392]  INFO -- : 0:  bourbon (3.1.8) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bourbon-3.1.8.gemspec
+I, [2014-01-02T20:47:34.154400 #2392]  INFO -- : 0:  daemons (1.1.9) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/daemons-1.1.9.gemspec
+I, [2014-01-02T20:47:36.064505 #2392]  INFO -- : 0:  dm-core (1.2.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-core-1.2.1.gemspec
+I, [2014-01-02T20:47:36.827541 #2392]  INFO -- : 0:  dm-aggregates (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-aggregates-1.2.0.gemspec
+I, [2014-01-02T20:47:37.533579 #2392]  INFO -- : 0:  dm-constraints (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-constraints-1.2.0.gemspec
+I, [2014-01-02T20:47:38.297650 #2392]  INFO -- : 0:  dm-migrations (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-migrations-1.2.0.gemspec
+I, [2014-01-02T20:47:39.154687 #2392]  INFO -- : 0:  fastercsv (1.5.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/fastercsv-1.5.5.gemspec
+I, [2014-01-02T20:47:43.850959 #2392]  INFO -- : 0:  json (1.8.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/json-1.8.1.gemspec
+I, [2014-01-02T20:47:45.468064 #2392]  INFO -- : 0:  json_pure (1.8.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/json_pure-1.8.1.gemspec
+I, [2014-01-02T20:47:46.545118 #2392]  INFO -- : 0:  multi_json (1.8.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/multi_json-1.8.2.gemspec
+I, [2014-01-02T20:47:47.267161 #2392]  INFO -- : 0:  dm-serializer (1.2.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-serializer-1.2.2.gemspec
+I, [2014-01-02T20:47:47.890201 #2392]  INFO -- : 0:  dm-timestamps (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-timestamps-1.2.0.gemspec
+I, [2014-01-02T20:47:48.599238 #2392]  INFO -- : 0:  dm-transactions (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-transactions-1.2.0.gemspec
+I, [2014-01-02T20:47:49.612303 #2392]  INFO -- : 0:  stringex (1.5.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/stringex-1.5.1.gemspec
+I, [2014-01-02T20:47:50.612370 #2392]  INFO -- : 0:  uuidtools (2.1.4) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/uuidtools-2.1.4.gemspec
+I, [2014-01-02T20:47:51.340406 #2392]  INFO -- : 0:  dm-types (1.2.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-types-1.2.2.gemspec
+I, [2014-01-02T20:47:52.307462 #2392]  INFO -- : 0:  dm-validations (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-validations-1.2.0.gemspec
+I, [2014-01-02T20:47:52.892520 #2392]  INFO -- : 0:  data_mapper (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/data_mapper-1.2.0.gemspec
+I, [2014-01-02T20:47:54.048595 #2392]  INFO -- : 0:  data_objects (0.10.13) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/data_objects-0.10.13.gemspec
+I, [2014-01-02T20:47:54.698610 #2392]  INFO -- : 0:  dm-do-adapter (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-do-adapter-1.2.0.gemspec
+E, [2014-01-02T20:48:10.547552 #2392] ERROR -- : Gem::Installer::ExtensionBuildError: ERROR: Failed to build gem native extension.
+
+    C:/Ruby200/bin/ruby.exe extconf.rb 
+checking for my_global.h... no
+checking for mysql.h... no
+checking for main() in -llibmysql... no
+checking for mysql_query() in mysql.h... no
+checking for mysql_ssl_set() in mysql.h... no
+checking for localtime_r()... yes
+checking for gmtime_r()... yes
+checking for mysql.h... no
+checking for MYSQL_TYPE_STRING in mysql.h... no
+checking for MYSQL_TYPE_BIT in mysql.h... no
+checking for MYSQL_TYPE_NEWDECIMAL in mysql.h... no
+checking for mysql_query() in mysql.h... no
+checking for mysql_ssl_set() in mysql.h... no
+checking for mysql_sqlstate() in mysql.h... no
+checking for mysql_get_ssl_cipher() in mysql.h... no
+checking for mysql_set_character_set() in mysql.h... no
+checking for mysql_get_server_version() in mysql.h... no
+checking for MYSQL_FIELD.charsetnr in mysql.h... no
+creating Makefile
+
+make "DESTDIR="
+generating do_mysql-x64-mingw32.def
+compiling do_common.c
+compiling do_mysql.c
+do_mysql.c:5:19: fatal error: mysql.h: No such file or directory
+compilation terminated.
+make: *** [do_mysql.o] Error 1
+
+
+Gem files will remain installed in C:/Ruby200/lib/ruby/gems/2.0.0/gems/do_mysql-0.10.13 for inspection.
+Results logged to C:/Ruby200/lib/ruby/gems/2.0.0/gems/do_mysql-0.10.13/ext/do_mysql/gem_make.out
+
+C:/Ruby200/lib/ruby/2.0.0/rubygems/ext/builder.rb:62:in `run'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/ext/builder.rb:35:in `block in make'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/ext/builder.rb:28:in `each'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/ext/builder.rb:28:in `make'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:45:in `block in build'  \nC:/Ruby200/lib/ruby/2.0.0/tempfile.rb:324:in `open'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:19:in `build'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:689:in `block (3 levels) in build_extensions'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:688:in `chdir'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:688:in `block (2 levels) in build_extensions'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:687:in `synchronize'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:687:in `block in build_extensions'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:662:in `each'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:662:in `build_extensions'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:227:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:101:in `block in install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:94:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:295:in `block in install_sequentially'  \nC:/Ruby200/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \nC:/Ruby200/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:294:in `install_sequentially'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:97:in `run'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:15:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/cli.rb:257:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/command.rb:27:in `run'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor.rb:363:in `dispatch'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/base.rb:438:in `start'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/cli.rb:10:in `start'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/bin/bundle:22:in `block in <top (required)>'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/bin/bundle:22:in `<top (required)>'  \nC:/Ruby200/bin/bundle:23:in `load'  \nC:/Ruby200/bin/bundle:23:in `<main>'
+I, [2014-01-02T21:08:11.176319 #2732]  INFO -- : 0:  addressable (2.3.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/addressable-2.3.5.gemspec
+I, [2014-01-02T21:08:11.179296 #2732]  INFO -- : 0:  backports (3.3.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/backports-3.3.5.gemspec
+I, [2014-01-02T21:08:11.181346 #2732]  INFO -- : 0:  bcrypt-ruby (3.1.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bcrypt-ruby-3.1.2-x64-mingw32.gemspec
+I, [2014-01-02T21:08:11.183305 #2732]  INFO -- : 0:  bond (0.4.3) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bond-0.4.3.gemspec
+I, [2014-01-02T21:08:11.184292 #2732]  INFO -- : 0:  sass (3.2.12) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/sass-3.2.12.gemspec
+I, [2014-01-02T21:08:11.186290 #2732]  INFO -- : 0:  thor (0.18.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/thor-0.18.1.gemspec
+I, [2014-01-02T21:08:11.188317 #2732]  INFO -- : 0:  bourbon (3.1.8) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bourbon-3.1.8.gemspec
+I, [2014-01-02T21:08:11.189309 #2732]  INFO -- : 0:  daemons (1.1.9) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/daemons-1.1.9.gemspec
+I, [2014-01-02T21:08:11.191314 #2732]  INFO -- : 0:  dm-core (1.2.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-core-1.2.1.gemspec
+I, [2014-01-02T21:08:11.193308 #2732]  INFO -- : 0:  dm-aggregates (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-aggregates-1.2.0.gemspec
+I, [2014-01-02T21:08:11.194299 #2732]  INFO -- : 0:  dm-constraints (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-constraints-1.2.0.gemspec
+I, [2014-01-02T21:08:11.196290 #2732]  INFO -- : 0:  dm-migrations (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-migrations-1.2.0.gemspec
+I, [2014-01-02T21:08:11.198311 #2732]  INFO -- : 0:  fastercsv (1.5.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/fastercsv-1.5.5.gemspec
+I, [2014-01-02T21:08:11.199291 #2732]  INFO -- : 0:  json (1.8.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/json-1.8.1.gemspec
+I, [2014-01-02T21:08:11.201299 #2732]  INFO -- : 0:  json_pure (1.8.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/json_pure-1.8.1.gemspec
+I, [2014-01-02T21:08:11.203290 #2732]  INFO -- : 0:  multi_json (1.8.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/multi_json-1.8.2.gemspec
+I, [2014-01-02T21:08:11.205299 #2732]  INFO -- : 0:  dm-serializer (1.2.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-serializer-1.2.2.gemspec
+I, [2014-01-02T21:08:11.206292 #2732]  INFO -- : 0:  dm-timestamps (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-timestamps-1.2.0.gemspec
+I, [2014-01-02T21:08:11.208300 #2732]  INFO -- : 0:  dm-transactions (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-transactions-1.2.0.gemspec
+I, [2014-01-02T21:08:11.209300 #2732]  INFO -- : 0:  stringex (1.5.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/stringex-1.5.1.gemspec
+I, [2014-01-02T21:08:11.211300 #2732]  INFO -- : 0:  uuidtools (2.1.4) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/uuidtools-2.1.4.gemspec
+I, [2014-01-02T21:08:11.213291 #2732]  INFO -- : 0:  dm-types (1.2.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-types-1.2.2.gemspec
+I, [2014-01-02T21:08:11.214300 #2732]  INFO -- : 0:  dm-validations (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-validations-1.2.0.gemspec
+I, [2014-01-02T21:08:11.216301 #2732]  INFO -- : 0:  data_mapper (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/data_mapper-1.2.0.gemspec
+I, [2014-01-02T21:08:11.218300 #2732]  INFO -- : 0:  data_objects (0.10.13) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/data_objects-0.10.13.gemspec
+I, [2014-01-02T21:08:11.219294 #2732]  INFO -- : 0:  dm-do-adapter (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-do-adapter-1.2.0.gemspec
+E, [2014-01-02T21:08:26.586204 #2732] ERROR -- : Gem::Installer::ExtensionBuildError: ERROR: Failed to build gem native extension.
+
+    C:/Ruby200/bin/ruby.exe extconf.rb 
+checking for my_global.h... no
+checking for mysql.h... no
+checking for main() in -llibmysql... no
+checking for mysql_query() in mysql.h... no
+checking for mysql_ssl_set() in mysql.h... no
+checking for localtime_r()... yes
+checking for gmtime_r()... yes
+checking for mysql.h... no
+checking for MYSQL_TYPE_STRING in mysql.h... no
+checking for MYSQL_TYPE_BIT in mysql.h... no
+checking for MYSQL_TYPE_NEWDECIMAL in mysql.h... no
+checking for mysql_query() in mysql.h... no
+checking for mysql_ssl_set() in mysql.h... no
+checking for mysql_sqlstate() in mysql.h... no
+checking for mysql_get_ssl_cipher() in mysql.h... no
+checking for mysql_set_character_set() in mysql.h... no
+checking for mysql_get_server_version() in mysql.h... no
+checking for MYSQL_FIELD.charsetnr in mysql.h... no
+creating Makefile
+
+make "DESTDIR="
+generating do_mysql-x64-mingw32.def
+compiling do_common.c
+compiling do_mysql.c
+do_mysql.c:5:19: fatal error: mysql.h: No such file or directory
+compilation terminated.
+make: *** [do_mysql.o] Error 1
+
+
+Gem files will remain installed in C:/Ruby200/lib/ruby/gems/2.0.0/gems/do_mysql-0.10.13 for inspection.
+Results logged to C:/Ruby200/lib/ruby/gems/2.0.0/gems/do_mysql-0.10.13/ext/do_mysql/gem_make.out
+
+C:/Ruby200/lib/ruby/2.0.0/rubygems/ext/builder.rb:62:in `run'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/ext/builder.rb:35:in `block in make'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/ext/builder.rb:28:in `each'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/ext/builder.rb:28:in `make'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:45:in `block in build'  \nC:/Ruby200/lib/ruby/2.0.0/tempfile.rb:324:in `open'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:19:in `build'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:689:in `block (3 levels) in build_extensions'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:688:in `chdir'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:688:in `block (2 levels) in build_extensions'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:687:in `synchronize'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:687:in `block in build_extensions'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:662:in `each'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:662:in `build_extensions'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:227:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:101:in `block in install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:94:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:295:in `block in install_sequentially'  \nC:/Ruby200/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \nC:/Ruby200/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:294:in `install_sequentially'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:97:in `run'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:15:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/cli.rb:257:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/command.rb:27:in `run'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor.rb:363:in `dispatch'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/base.rb:438:in `start'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/cli.rb:10:in `start'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/bin/bundle:22:in `block in <top (required)>'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/bin/bundle:22:in `<top (required)>'  \nC:/Ruby200/bin/bundle:23:in `load'  \nC:/Ruby200/bin/bundle:23:in `<main>'
+I, [2014-01-02T21:11:16.341353 #4036]  INFO -- : 0:  addressable (2.3.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/addressable-2.3.5.gemspec
+I, [2014-01-02T21:11:16.343353 #4036]  INFO -- : 0:  backports (3.3.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/backports-3.3.5.gemspec
+I, [2014-01-02T21:11:16.345353 #4036]  INFO -- : 0:  bcrypt-ruby (3.1.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bcrypt-ruby-3.1.2-x64-mingw32.gemspec
+I, [2014-01-02T21:11:16.347374 #4036]  INFO -- : 0:  bond (0.4.3) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bond-0.4.3.gemspec
+I, [2014-01-02T21:11:16.349360 #4036]  INFO -- : 0:  sass (3.2.12) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/sass-3.2.12.gemspec
+I, [2014-01-02T21:11:16.350362 #4036]  INFO -- : 0:  thor (0.18.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/thor-0.18.1.gemspec
+I, [2014-01-02T21:11:16.352353 #4036]  INFO -- : 0:  bourbon (3.1.8) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bourbon-3.1.8.gemspec
+I, [2014-01-02T21:11:16.354359 #4036]  INFO -- : 0:  daemons (1.1.9) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/daemons-1.1.9.gemspec
+I, [2014-01-02T21:11:16.355353 #4036]  INFO -- : 0:  dm-core (1.2.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-core-1.2.1.gemspec
+I, [2014-01-02T21:11:16.357372 #4036]  INFO -- : 0:  dm-aggregates (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-aggregates-1.2.0.gemspec
+I, [2014-01-02T21:11:16.359447 #4036]  INFO -- : 0:  dm-constraints (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-constraints-1.2.0.gemspec
+I, [2014-01-02T21:11:16.361359 #4036]  INFO -- : 0:  dm-migrations (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-migrations-1.2.0.gemspec
+I, [2014-01-02T21:11:16.362354 #4036]  INFO -- : 0:  fastercsv (1.5.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/fastercsv-1.5.5.gemspec
+I, [2014-01-02T21:11:16.364351 #4036]  INFO -- : 0:  json (1.8.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/json-1.8.1.gemspec
+I, [2014-01-02T21:11:16.365373 #4036]  INFO -- : 0:  json_pure (1.8.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/json_pure-1.8.1.gemspec
+I, [2014-01-02T21:11:16.367381 #4036]  INFO -- : 0:  multi_json (1.8.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/multi_json-1.8.2.gemspec
+I, [2014-01-02T21:11:16.369360 #4036]  INFO -- : 0:  dm-serializer (1.2.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-serializer-1.2.2.gemspec
+I, [2014-01-02T21:11:16.370363 #4036]  INFO -- : 0:  dm-timestamps (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-timestamps-1.2.0.gemspec
+I, [2014-01-02T21:11:16.372364 #4036]  INFO -- : 0:  dm-transactions (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-transactions-1.2.0.gemspec
+I, [2014-01-02T21:11:16.374377 #4036]  INFO -- : 0:  stringex (1.5.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/stringex-1.5.1.gemspec
+I, [2014-01-02T21:11:16.375372 #4036]  INFO -- : 0:  uuidtools (2.1.4) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/uuidtools-2.1.4.gemspec
+I, [2014-01-02T21:11:16.377381 #4036]  INFO -- : 0:  dm-types (1.2.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-types-1.2.2.gemspec
+I, [2014-01-02T21:11:16.379353 #4036]  INFO -- : 0:  dm-validations (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-validations-1.2.0.gemspec
+I, [2014-01-02T21:11:16.380387 #4036]  INFO -- : 0:  data_mapper (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/data_mapper-1.2.0.gemspec
+I, [2014-01-02T21:11:16.382381 #4036]  INFO -- : 0:  data_objects (0.10.13) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/data_objects-0.10.13.gemspec
+I, [2014-01-02T21:11:16.384450 #4036]  INFO -- : 0:  dm-do-adapter (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-do-adapter-1.2.0.gemspec
+I, [2014-01-02T21:11:16.385360 #4036]  INFO -- : 0:  do_mysql (0.10.13) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/do_mysql-0.10.13.gemspec
+I, [2014-01-02T21:11:16.987391 #4036]  INFO -- : 0:  dm-mysql-adapter (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-mysql-adapter-1.2.0.gemspec
+E, [2014-01-02T21:11:20.460594 #4036] ERROR -- : Gem::Installer::ExtensionBuildError: ERROR: Failed to build gem native extension.
+
+    C:/Ruby200/bin/ruby.exe extconf.rb 
+checking for main() in -lpq... no
+checking for main() in -llibpq... no
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=C:/Ruby200/bin/ruby
+	--with-pgsql-server-dir
+	--without-pgsql-server-dir
+	--with-pgsql-server-include
+	--without-pgsql-server-include=${pgsql-server-dir}/include
+	--with-pgsql-server-lib
+	--without-pgsql-server-lib=${pgsql-server-dir}/
+	--with-pgsql-client-dir
+	--without-pgsql-client-dir
+	--with-pgsql-client-include
+	--without-pgsql-client-include=${pgsql-client-dir}/include
+	--with-pgsql-client-lib
+	--without-pgsql-client-lib=${pgsql-client-dir}/
+	--with-pgsql-win32-dir
+	--without-pgsql-win32-dir
+	--with-pgsql-win32-include
+	--without-pgsql-win32-include=${pgsql-win32-dir}/include
+	--with-pgsql-win32-lib
+	--without-pgsql-win32-lib=${pgsql-win32-dir}/
+	--with-pqlib
+	--without-pqlib
+	--with-libpqlib
+	--without-libpqlib
+Could not find PostgreSQL build environment (libraries & headers): Makefile not created
+
+
+Gem files will remain installed in C:/Ruby200/lib/ruby/gems/2.0.0/gems/do_postgres-0.10.13 for inspection.
+Results logged to C:/Ruby200/lib/ruby/gems/2.0.0/gems/do_postgres-0.10.13/ext/do_postgres/gem_make.out
+
+C:/Ruby200/lib/ruby/2.0.0/rubygems/ext/builder.rb:62:in `run'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:39:in `block in build'  \nC:/Ruby200/lib/ruby/2.0.0/tempfile.rb:324:in `open'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:19:in `build'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:689:in `block (3 levels) in build_extensions'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:688:in `chdir'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:688:in `block (2 levels) in build_extensions'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:687:in `synchronize'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:687:in `block in build_extensions'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:662:in `each'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:662:in `build_extensions'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:227:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:101:in `block in install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:94:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:295:in `block in install_sequentially'  \nC:/Ruby200/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \nC:/Ruby200/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:294:in `install_sequentially'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:97:in `run'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:15:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/cli.rb:257:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/command.rb:27:in `run'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor.rb:363:in `dispatch'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/base.rb:438:in `start'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/cli.rb:10:in `start'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/bin/bundle:22:in `block in <top (required)>'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/bin/bundle:22:in `<top (required)>'  \nC:/Ruby200/bin/bundle:23:in `load'  \nC:/Ruby200/bin/bundle:23:in `<main>'
+I, [2014-01-02T21:13:19.730771 #580]  INFO -- : 0:  addressable (2.3.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/addressable-2.3.5.gemspec
+I, [2014-01-02T21:13:19.733723 #580]  INFO -- : 0:  backports (3.3.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/backports-3.3.5.gemspec
+I, [2014-01-02T21:13:19.734741 #580]  INFO -- : 0:  bcrypt-ruby (3.1.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bcrypt-ruby-3.1.2-x64-mingw32.gemspec
+I, [2014-01-02T21:13:19.735773 #580]  INFO -- : 0:  bond (0.4.3) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bond-0.4.3.gemspec
+I, [2014-01-02T21:13:19.736772 #580]  INFO -- : 0:  sass (3.2.12) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/sass-3.2.12.gemspec
+I, [2014-01-02T21:13:19.738724 #580]  INFO -- : 0:  thor (0.18.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/thor-0.18.1.gemspec
+I, [2014-01-02T21:13:19.739720 #580]  INFO -- : 0:  bourbon (3.1.8) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bourbon-3.1.8.gemspec
+I, [2014-01-02T21:13:19.740727 #580]  INFO -- : 0:  daemons (1.1.9) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/daemons-1.1.9.gemspec
+I, [2014-01-02T21:13:19.741750 #580]  INFO -- : 0:  dm-core (1.2.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-core-1.2.1.gemspec
+I, [2014-01-02T21:13:19.742721 #580]  INFO -- : 0:  dm-aggregates (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-aggregates-1.2.0.gemspec
+I, [2014-01-02T21:13:19.743721 #580]  INFO -- : 0:  dm-constraints (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-constraints-1.2.0.gemspec
+I, [2014-01-02T21:13:19.744720 #580]  INFO -- : 0:  dm-migrations (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-migrations-1.2.0.gemspec
+I, [2014-01-02T21:13:19.745721 #580]  INFO -- : 0:  fastercsv (1.5.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/fastercsv-1.5.5.gemspec
+I, [2014-01-02T21:13:19.749773 #580]  INFO -- : 0:  json (1.8.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/json-1.8.1.gemspec
+I, [2014-01-02T21:13:19.751766 #580]  INFO -- : 0:  json_pure (1.8.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/json_pure-1.8.1.gemspec
+I, [2014-01-02T21:13:19.752722 #580]  INFO -- : 0:  multi_json (1.8.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/multi_json-1.8.2.gemspec
+I, [2014-01-02T21:13:19.753722 #580]  INFO -- : 0:  dm-serializer (1.2.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-serializer-1.2.2.gemspec
+I, [2014-01-02T21:13:19.754721 #580]  INFO -- : 0:  dm-timestamps (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-timestamps-1.2.0.gemspec
+I, [2014-01-02T21:13:19.755722 #580]  INFO -- : 0:  dm-transactions (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-transactions-1.2.0.gemspec
+I, [2014-01-02T21:13:19.756722 #580]  INFO -- : 0:  stringex (1.5.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/stringex-1.5.1.gemspec
+I, [2014-01-02T21:13:19.758723 #580]  INFO -- : 0:  uuidtools (2.1.4) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/uuidtools-2.1.4.gemspec
+I, [2014-01-02T21:13:19.759731 #580]  INFO -- : 0:  dm-types (1.2.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-types-1.2.2.gemspec
+I, [2014-01-02T21:13:19.760753 #580]  INFO -- : 0:  dm-validations (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-validations-1.2.0.gemspec
+I, [2014-01-02T21:13:19.761727 #580]  INFO -- : 0:  data_mapper (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/data_mapper-1.2.0.gemspec
+I, [2014-01-02T21:13:19.762722 #580]  INFO -- : 0:  data_objects (0.10.13) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/data_objects-0.10.13.gemspec
+I, [2014-01-02T21:13:19.763723 #580]  INFO -- : 0:  dm-do-adapter (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-do-adapter-1.2.0.gemspec
+I, [2014-01-02T21:13:19.764722 #580]  INFO -- : 0:  do_mysql (0.10.13) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/do_mysql-0.10.13.gemspec
+I, [2014-01-02T21:13:19.766722 #580]  INFO -- : 0:  dm-mysql-adapter (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-mysql-adapter-1.2.0.gemspec
+E, [2014-01-02T21:13:22.678896 #580] ERROR -- : Gem::Installer::ExtensionBuildError: ERROR: Failed to build gem native extension.
+
+    C:/Ruby200/bin/ruby.exe extconf.rb 
+checking for main() in -lpq... no
+checking for main() in -llibpq... no
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=C:/Ruby200/bin/ruby
+	--with-pgsql-server-dir
+	--without-pgsql-server-dir
+	--with-pgsql-server-include
+	--without-pgsql-server-include=${pgsql-server-dir}/include
+	--with-pgsql-server-lib
+	--without-pgsql-server-lib=${pgsql-server-dir}/
+	--with-pgsql-client-dir
+	--without-pgsql-client-dir
+	--with-pgsql-client-include
+	--without-pgsql-client-include=${pgsql-client-dir}/include
+	--with-pgsql-client-lib
+	--without-pgsql-client-lib=${pgsql-client-dir}/
+	--with-pgsql-win32-dir
+	--without-pgsql-win32-dir
+	--with-pgsql-win32-include
+	--without-pgsql-win32-include=${pgsql-win32-dir}/include
+	--with-pgsql-win32-lib
+	--without-pgsql-win32-lib=${pgsql-win32-dir}/
+	--with-pqlib
+	--without-pqlib
+	--with-libpqlib
+	--without-libpqlib
+Could not find PostgreSQL build environment (libraries & headers): Makefile not created
+
+
+Gem files will remain installed in C:/Ruby200/lib/ruby/gems/2.0.0/gems/do_postgres-0.10.13 for inspection.
+Results logged to C:/Ruby200/lib/ruby/gems/2.0.0/gems/do_postgres-0.10.13/ext/do_postgres/gem_make.out
+
+C:/Ruby200/lib/ruby/2.0.0/rubygems/ext/builder.rb:62:in `run'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:39:in `block in build'  \nC:/Ruby200/lib/ruby/2.0.0/tempfile.rb:324:in `open'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:19:in `build'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:689:in `block (3 levels) in build_extensions'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:688:in `chdir'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:688:in `block (2 levels) in build_extensions'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:687:in `synchronize'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:687:in `block in build_extensions'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:662:in `each'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:662:in `build_extensions'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:227:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:101:in `block in install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:94:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:295:in `block in install_sequentially'  \nC:/Ruby200/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \nC:/Ruby200/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:294:in `install_sequentially'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:97:in `run'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:15:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/cli.rb:257:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/command.rb:27:in `run'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor.rb:363:in `dispatch'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/base.rb:438:in `start'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/cli.rb:10:in `start'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/bin/bundle:22:in `block in <top (required)>'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/bin/bundle:22:in `<top (required)>'  \nC:/Ruby200/bin/bundle:23:in `load'  \nC:/Ruby200/bin/bundle:23:in `<main>'
+I, [2014-01-02T21:13:54.465875 #3936]  INFO -- : 0:  addressable (2.3.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/addressable-2.3.5.gemspec
+I, [2014-01-02T21:13:54.467827 #3936]  INFO -- : 0:  backports (3.3.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/backports-3.3.5.gemspec
+I, [2014-01-02T21:13:54.469825 #3936]  INFO -- : 0:  bcrypt-ruby (3.1.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bcrypt-ruby-3.1.2-x64-mingw32.gemspec
+I, [2014-01-02T21:13:54.471806 #3936]  INFO -- : 0:  bond (0.4.3) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bond-0.4.3.gemspec
+I, [2014-01-02T21:13:54.473807 #3936]  INFO -- : 0:  sass (3.2.12) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/sass-3.2.12.gemspec
+I, [2014-01-02T21:13:54.474800 #3936]  INFO -- : 0:  thor (0.18.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/thor-0.18.1.gemspec
+I, [2014-01-02T21:13:54.476832 #3936]  INFO -- : 0:  bourbon (3.1.8) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bourbon-3.1.8.gemspec
+I, [2014-01-02T21:13:54.478799 #3936]  INFO -- : 0:  daemons (1.1.9) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/daemons-1.1.9.gemspec
+I, [2014-01-02T21:13:54.479826 #3936]  INFO -- : 0:  dm-core (1.2.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-core-1.2.1.gemspec
+I, [2014-01-02T21:13:54.481801 #3936]  INFO -- : 0:  dm-aggregates (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-aggregates-1.2.0.gemspec
+I, [2014-01-02T21:13:54.483879 #3936]  INFO -- : 0:  dm-constraints (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-constraints-1.2.0.gemspec
+I, [2014-01-02T21:13:54.484809 #3936]  INFO -- : 0:  dm-migrations (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-migrations-1.2.0.gemspec
+I, [2014-01-02T21:13:54.486801 #3936]  INFO -- : 0:  fastercsv (1.5.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/fastercsv-1.5.5.gemspec
+I, [2014-01-02T21:13:54.488810 #3936]  INFO -- : 0:  json (1.8.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/json-1.8.1.gemspec
+I, [2014-01-02T21:13:54.489813 #3936]  INFO -- : 0:  json_pure (1.8.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/json_pure-1.8.1.gemspec
+I, [2014-01-02T21:13:54.491802 #3936]  INFO -- : 0:  multi_json (1.8.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/multi_json-1.8.2.gemspec
+I, [2014-01-02T21:13:54.493810 #3936]  INFO -- : 0:  dm-serializer (1.2.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-serializer-1.2.2.gemspec
+I, [2014-01-02T21:13:54.494801 #3936]  INFO -- : 0:  dm-timestamps (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-timestamps-1.2.0.gemspec
+I, [2014-01-02T21:13:54.496879 #3936]  INFO -- : 0:  dm-transactions (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-transactions-1.2.0.gemspec
+I, [2014-01-02T21:13:54.497815 #3936]  INFO -- : 0:  stringex (1.5.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/stringex-1.5.1.gemspec
+I, [2014-01-02T21:13:54.499797 #3936]  INFO -- : 0:  uuidtools (2.1.4) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/uuidtools-2.1.4.gemspec
+I, [2014-01-02T21:13:54.501828 #3936]  INFO -- : 0:  dm-types (1.2.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-types-1.2.2.gemspec
+I, [2014-01-02T21:13:54.503799 #3936]  INFO -- : 0:  dm-validations (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-validations-1.2.0.gemspec
+I, [2014-01-02T21:13:54.504801 #3936]  INFO -- : 0:  data_mapper (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/data_mapper-1.2.0.gemspec
+I, [2014-01-02T21:13:54.506802 #3936]  INFO -- : 0:  data_objects (0.10.13) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/data_objects-0.10.13.gemspec
+I, [2014-01-02T21:13:54.508807 #3936]  INFO -- : 0:  dm-do-adapter (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-do-adapter-1.2.0.gemspec
+I, [2014-01-02T21:13:54.509812 #3936]  INFO -- : 0:  do_mysql (0.10.13) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/do_mysql-0.10.13.gemspec
+I, [2014-01-02T21:13:54.511799 #3936]  INFO -- : 0:  dm-mysql-adapter (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-mysql-adapter-1.2.0.gemspec
+E, [2014-01-02T21:14:09.894717 #3936] ERROR -- : Gem::Installer::ExtensionBuildError: ERROR: Failed to build gem native extension.
+
+    C:/Ruby200/bin/ruby.exe extconf.rb 
+checking for main() in -lssl... no
+checking for rb_trap_immediate in ruby.h,rubysig.h... no
+checking for rb_thread_blocking_region()... yes
+checking for inotify_init() in sys/inotify.h... no
+checking for __NR_inotify_init in sys/syscall.h... no
+checking for writev() in sys/uio.h... no
+checking for rb_wait_for_single_fd()... yes
+checking for rb_enable_interrupt()... no
+checking for rb_time_new()... yes
+checking for windows.h... yes
+checking for winsock.h... yes
+checking for main() in -lkernel32... yes
+checking for main() in -lrpcrt4... yes
+checking for main() in -lgdi32... yes
+creating Makefile
+
+make "DESTDIR="
+generating rubyeventmachine-x64-mingw32.def
+compiling binder.cpp
+In file included from c:\rubydevkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/process.h:12:0,
+                 from c:/Ruby200/include/ruby-2.0.0/ruby/win32.h:60,
+                 from c:/Ruby200/include/ruby-2.0.0/ruby/defines.h:153,
+                 from c:/Ruby200/include/ruby-2.0.0/ruby/ruby.h:70,
+                 from c:/Ruby200/include/ruby-2.0.0/ruby.h:33,
+                 from em.h:24,
+                 from project.h:150,
+                 from binder.cpp:20:
+c:\rubydevkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/sys/types.h:68:16: error: conflicting declaration 'typedef _pid_t pid_t'
+In file included from binder.cpp:20:0:
+project.h:97:13: error: 'pid_t' has a previous declaration as 'typedef int pid_t'
+In file included from project.h:151:0,
+                 from binder.cpp:20:
+ed.h: In member function 'void EventableDescriptor::SetSocketInvalid()':
+ed.h:43:40: warning: overflow in implicit constant conversion [-Woverflow]
+make: *** [binder.o] Error 1
+
+
+Gem files will remain installed in C:/Ruby200/lib/ruby/gems/2.0.0/gems/eventmachine-1.0.3 for inspection.
+Results logged to C:/Ruby200/lib/ruby/gems/2.0.0/gems/eventmachine-1.0.3/ext/gem_make.out
+
+C:/Ruby200/lib/ruby/2.0.0/rubygems/ext/builder.rb:62:in `run'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/ext/builder.rb:35:in `block in make'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/ext/builder.rb:28:in `each'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/ext/builder.rb:28:in `make'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:45:in `block in build'  \nC:/Ruby200/lib/ruby/2.0.0/tempfile.rb:324:in `open'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:19:in `build'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:689:in `block (3 levels) in build_extensions'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:688:in `chdir'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:688:in `block (2 levels) in build_extensions'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:687:in `synchronize'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:687:in `block in build_extensions'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:662:in `each'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:662:in `build_extensions'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:227:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:101:in `block in install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:94:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:295:in `block in install_sequentially'  \nC:/Ruby200/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \nC:/Ruby200/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:294:in `install_sequentially'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:97:in `run'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:15:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/cli.rb:257:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/command.rb:27:in `run'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor.rb:363:in `dispatch'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/base.rb:438:in `start'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/cli.rb:10:in `start'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/bin/bundle:22:in `block in <top (required)>'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/bin/bundle:22:in `<top (required)>'  \nC:/Ruby200/bin/bundle:23:in `load'  \nC:/Ruby200/bin/bundle:23:in `<main>'
+I, [2014-01-02T21:44:23.897130 #1992]  INFO -- : 0:  addressable (2.3.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/addressable-2.3.5.gemspec
+I, [2014-01-02T21:44:23.899130 #1992]  INFO -- : 0:  backports (3.3.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/backports-3.3.5.gemspec
+I, [2014-01-02T21:44:23.900131 #1992]  INFO -- : 0:  bcrypt-ruby (3.1.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bcrypt-ruby-3.1.2-x64-mingw32.gemspec
+I, [2014-01-02T21:44:23.901131 #1992]  INFO -- : 0:  bond (0.4.3) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bond-0.4.3.gemspec
+I, [2014-01-02T21:44:23.903138 #1992]  INFO -- : 0:  sass (3.2.12) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/sass-3.2.12.gemspec
+I, [2014-01-02T21:44:23.905125 #1992]  INFO -- : 0:  thor (0.18.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/thor-0.18.1.gemspec
+I, [2014-01-02T21:44:23.907111 #1992]  INFO -- : 0:  bourbon (3.1.8) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bourbon-3.1.8.gemspec
+I, [2014-01-02T21:44:23.909104 #1992]  INFO -- : 0:  daemons (1.1.9) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/daemons-1.1.9.gemspec
+I, [2014-01-02T21:44:23.911101 #1992]  INFO -- : 0:  dm-core (1.2.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-core-1.2.1.gemspec
+I, [2014-01-02T21:44:23.913112 #1992]  INFO -- : 0:  dm-aggregates (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-aggregates-1.2.0.gemspec
+I, [2014-01-02T21:44:23.915104 #1992]  INFO -- : 0:  dm-constraints (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-constraints-1.2.0.gemspec
+I, [2014-01-02T21:44:23.917130 #1992]  INFO -- : 0:  dm-migrations (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-migrations-1.2.0.gemspec
+I, [2014-01-02T21:44:23.918117 #1992]  INFO -- : 0:  fastercsv (1.5.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/fastercsv-1.5.5.gemspec
+I, [2014-01-02T21:44:23.920106 #1992]  INFO -- : 0:  json (1.8.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/json-1.8.1.gemspec
+I, [2014-01-02T21:44:23.922111 #1992]  INFO -- : 0:  json_pure (1.8.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/json_pure-1.8.1.gemspec
+I, [2014-01-02T21:44:23.924107 #1992]  INFO -- : 0:  multi_json (1.8.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/multi_json-1.8.2.gemspec
+I, [2014-01-02T21:44:23.926106 #1992]  INFO -- : 0:  dm-serializer (1.2.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-serializer-1.2.2.gemspec
+I, [2014-01-02T21:44:23.928106 #1992]  INFO -- : 0:  dm-timestamps (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-timestamps-1.2.0.gemspec
+I, [2014-01-02T21:44:23.930132 #1992]  INFO -- : 0:  dm-transactions (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-transactions-1.2.0.gemspec
+I, [2014-01-02T21:44:23.931129 #1992]  INFO -- : 0:  stringex (1.5.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/stringex-1.5.1.gemspec
+I, [2014-01-02T21:44:23.933105 #1992]  INFO -- : 0:  uuidtools (2.1.4) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/uuidtools-2.1.4.gemspec
+I, [2014-01-02T21:44:23.935105 #1992]  INFO -- : 0:  dm-types (1.2.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-types-1.2.2.gemspec
+I, [2014-01-02T21:44:23.937103 #1992]  INFO -- : 0:  dm-validations (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-validations-1.2.0.gemspec
+I, [2014-01-02T21:44:23.939105 #1992]  INFO -- : 0:  data_mapper (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/data_mapper-1.2.0.gemspec
+I, [2014-01-02T21:44:23.941106 #1992]  INFO -- : 0:  data_objects (0.10.13) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/data_objects-0.10.13.gemspec
+I, [2014-01-02T21:44:23.943126 #1992]  INFO -- : 0:  dm-do-adapter (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-do-adapter-1.2.0.gemspec
+I, [2014-01-02T21:44:23.945151 #1992]  INFO -- : 0:  do_mysql (0.10.13) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/do_mysql-0.10.13.gemspec
+I, [2014-01-02T21:44:23.947122 #1992]  INFO -- : 0:  dm-mysql-adapter (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-mysql-adapter-1.2.0.gemspec
+E, [2014-01-02T21:44:37.762928 #1992] ERROR -- : Gem::Installer::ExtensionBuildError: ERROR: Failed to build gem native extension.
+
+    C:/Ruby200/bin/ruby.exe extconf.rb 
+checking for main() in -lssl... no
+checking for rb_trap_immediate in ruby.h,rubysig.h... no
+checking for rb_thread_blocking_region()... yes
+checking for inotify_init() in sys/inotify.h... no
+checking for __NR_inotify_init in sys/syscall.h... no
+checking for writev() in sys/uio.h... no
+checking for rb_wait_for_single_fd()... yes
+checking for rb_enable_interrupt()... no
+checking for rb_time_new()... yes
+checking for windows.h... yes
+checking for winsock.h... yes
+checking for main() in -lkernel32... yes
+checking for main() in -lrpcrt4... yes
+checking for main() in -lgdi32... yes
+creating Makefile
+
+make "DESTDIR="
+generating rubyeventmachine-x64-mingw32.def
+compiling binder.cpp
+In file included from c:\rubydevkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/process.h:12:0,
+                 from c:/Ruby200/include/ruby-2.0.0/ruby/win32.h:60,
+                 from c:/Ruby200/include/ruby-2.0.0/ruby/defines.h:153,
+                 from c:/Ruby200/include/ruby-2.0.0/ruby/ruby.h:70,
+                 from c:/Ruby200/include/ruby-2.0.0/ruby.h:33,
+                 from em.h:24,
+                 from project.h:150,
+                 from binder.cpp:20:
+c:\rubydevkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/sys/types.h:68:16: error: conflicting declaration 'typedef _pid_t pid_t'
+In file included from binder.cpp:20:0:
+project.h:97:13: error: 'pid_t' has a previous declaration as 'typedef int pid_t'
+In file included from project.h:151:0,
+                 from binder.cpp:20:
+ed.h: In member function 'void EventableDescriptor::SetSocketInvalid()':
+ed.h:43:40: warning: overflow in implicit constant conversion [-Woverflow]
+make: *** [binder.o] Error 1
+
+
+Gem files will remain installed in C:/Ruby200/lib/ruby/gems/2.0.0/gems/eventmachine-1.0.3 for inspection.
+Results logged to C:/Ruby200/lib/ruby/gems/2.0.0/gems/eventmachine-1.0.3/ext/gem_make.out
+
+C:/Ruby200/lib/ruby/2.0.0/rubygems/ext/builder.rb:62:in `run'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/ext/builder.rb:35:in `block in make'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/ext/builder.rb:28:in `each'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/ext/builder.rb:28:in `make'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:45:in `block in build'  \nC:/Ruby200/lib/ruby/2.0.0/tempfile.rb:324:in `open'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:19:in `build'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:689:in `block (3 levels) in build_extensions'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:688:in `chdir'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:688:in `block (2 levels) in build_extensions'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:687:in `synchronize'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:687:in `block in build_extensions'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:662:in `each'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:662:in `build_extensions'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:227:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:101:in `block in install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:94:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:295:in `block in install_sequentially'  \nC:/Ruby200/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \nC:/Ruby200/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:294:in `install_sequentially'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:97:in `run'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:15:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/cli.rb:257:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/command.rb:27:in `run'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor.rb:363:in `dispatch'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/base.rb:438:in `start'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/cli.rb:10:in `start'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/bin/bundle:22:in `block in <top (required)>'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/bin/bundle:22:in `<top (required)>'  \nC:/Ruby200/bin/bundle:23:in `load'  \nC:/Ruby200/bin/bundle:23:in `<main>'
+I, [2014-01-02T21:45:07.579740 #1332]  INFO -- : 0:  addressable (2.3.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/addressable-2.3.5.gemspec
+I, [2014-01-02T21:45:07.581746 #1332]  INFO -- : 0:  backports (3.3.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/backports-3.3.5.gemspec
+I, [2014-01-02T21:45:07.583723 #1332]  INFO -- : 0:  bcrypt-ruby (3.1.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bcrypt-ruby-3.1.2-x64-mingw32.gemspec
+I, [2014-01-02T21:45:07.585711 #1332]  INFO -- : 0:  bond (0.4.3) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bond-0.4.3.gemspec
+I, [2014-01-02T21:45:07.587711 #1332]  INFO -- : 0:  sass (3.2.12) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/sass-3.2.12.gemspec
+I, [2014-01-02T21:45:07.589711 #1332]  INFO -- : 0:  thor (0.18.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/thor-0.18.1.gemspec
+I, [2014-01-02T21:45:07.591711 #1332]  INFO -- : 0:  bourbon (3.1.8) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bourbon-3.1.8.gemspec
+I, [2014-01-02T21:45:07.593713 #1332]  INFO -- : 0:  dm-core (1.2.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-core-1.2.1.gemspec
+I, [2014-01-02T21:45:07.595781 #1332]  INFO -- : 0:  dm-aggregates (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-aggregates-1.2.0.gemspec
+I, [2014-01-02T21:45:07.596712 #1332]  INFO -- : 0:  dm-constraints (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-constraints-1.2.0.gemspec
+I, [2014-01-02T21:45:07.598715 #1332]  INFO -- : 0:  dm-migrations (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-migrations-1.2.0.gemspec
+I, [2014-01-02T21:45:07.600712 #1332]  INFO -- : 0:  fastercsv (1.5.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/fastercsv-1.5.5.gemspec
+I, [2014-01-02T21:45:07.602715 #1332]  INFO -- : 0:  json (1.8.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/json-1.8.1.gemspec
+I, [2014-01-02T21:45:07.604738 #1332]  INFO -- : 0:  json_pure (1.8.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/json_pure-1.8.1.gemspec
+I, [2014-01-02T21:45:07.606738 #1332]  INFO -- : 0:  multi_json (1.8.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/multi_json-1.8.2.gemspec
+I, [2014-01-02T21:45:07.608715 #1332]  INFO -- : 0:  dm-serializer (1.2.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-serializer-1.2.2.gemspec
+I, [2014-01-02T21:45:07.610713 #1332]  INFO -- : 0:  dm-timestamps (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-timestamps-1.2.0.gemspec
+I, [2014-01-02T21:45:07.611713 #1332]  INFO -- : 0:  dm-transactions (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-transactions-1.2.0.gemspec
+I, [2014-01-02T21:45:07.613716 #1332]  INFO -- : 0:  stringex (1.5.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/stringex-1.5.1.gemspec
+I, [2014-01-02T21:45:07.615712 #1332]  INFO -- : 0:  uuidtools (2.1.4) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/uuidtools-2.1.4.gemspec
+I, [2014-01-02T21:45:07.617713 #1332]  INFO -- : 0:  dm-types (1.2.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-types-1.2.2.gemspec
+I, [2014-01-02T21:45:07.619805 #1332]  INFO -- : 0:  dm-validations (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-validations-1.2.0.gemspec
+I, [2014-01-02T21:45:07.621744 #1332]  INFO -- : 0:  data_mapper (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/data_mapper-1.2.0.gemspec
+I, [2014-01-02T21:45:07.623720 #1332]  INFO -- : 0:  data_objects (0.10.13) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/data_objects-0.10.13.gemspec
+I, [2014-01-02T21:45:07.625718 #1332]  INFO -- : 0:  dm-do-adapter (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-do-adapter-1.2.0.gemspec
+I, [2014-01-02T21:45:07.627715 #1332]  INFO -- : 0:  do_mysql (0.10.13) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/do_mysql-0.10.13.gemspec
+I, [2014-01-02T21:45:07.663717 #1332]  INFO -- : 0:  dm-mysql-adapter (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-mysql-adapter-1.2.0.gemspec
+I, [2014-01-02T21:45:07.665742 #1332]  INFO -- : 0:  mysql2 (0.3.14) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/mysql2-0.3.14.gemspec
+I, [2014-01-02T21:45:07.668715 #1332]  INFO -- : 0:  rack (1.5.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/rack-1.5.2.gemspec
+I, [2014-01-02T21:45:08.769786 #1332]  INFO -- : 0:  rack-protection (1.5.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/rack-protection-1.5.1.gemspec
+I, [2014-01-02T21:45:09.608843 #1332]  INFO -- : 0:  rack-test (0.6.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/rack-test-0.6.2.gemspec
+I, [2014-01-02T21:45:10.345922 #1332]  INFO -- : 0:  ripl (0.7.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/ripl-0.7.0.gemspec
+I, [2014-01-02T21:45:11.399939 #1332]  INFO -- : 0:  ripl-multi_line (0.3.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/ripl-multi_line-0.3.1.gemspec
+I, [2014-01-02T21:45:12.050982 #1332]  INFO -- : 0:  ripl-rack (0.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/ripl-rack-0.2.0.gemspec
+I, [2014-01-02T21:45:12.785058 #1332]  INFO -- : 0:  shotgun (0.9) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/shotgun-0.9.gemspec
+I, [2014-01-02T21:45:14.059100 #1332]  INFO -- : 0:  tilt (1.4.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/tilt-1.4.1.gemspec
+I, [2014-01-02T21:45:15.466184 #1332]  INFO -- : 0:  sinatra (1.4.4) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/sinatra-1.4.4.gemspec
+I, [2014-01-02T21:45:16.834268 #1332]  INFO -- : 0:  sinatra-contrib (1.4.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/sinatra-contrib-1.4.1.gemspec
+I, [2014-01-02T21:45:17.521333 #1332]  INFO -- : 0:  sinatra-flash (0.3.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/sinatra-flash-0.3.0.gemspec
+I, [2014-01-02T21:45:18.252383 #1332]  INFO -- : 0:  sinatra-redirect-with-flash (0.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/sinatra-redirect-with-flash-0.2.0.gemspec
+I, [2014-01-02T21:45:19.577456 #1332]  INFO -- : 0:  temple (0.6.7) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/temple-0.6.7.gemspec
+I, [2014-01-02T21:45:20.585492 #1332]  INFO -- : 0:  slim (2.0.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/slim-2.0.2.gemspec
+I, [2014-01-02T21:45:21.280533 #1332]  INFO -- : 0:  tux (0.3.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/tux-0.3.0.gemspec
+I, [2014-01-02T21:45:21.282529 #1332]  INFO -- : 0:  bundler (1.5.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bundler-1.5.1.gemspec
+I, [2014-01-02T21:47:01.502518 #4848]  INFO -- : 0:  addressable (2.3.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/addressable-2.3.5.gemspec
+I, [2014-01-02T21:47:01.503518 #4848]  INFO -- : 0:  backports (3.3.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/backports-3.3.5.gemspec
+I, [2014-01-02T21:47:01.505517 #4848]  INFO -- : 0:  bcrypt-ruby (3.1.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bcrypt-ruby-3.1.2-x64-mingw32.gemspec
+I, [2014-01-02T21:47:01.506518 #4848]  INFO -- : 0:  bond (0.4.3) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bond-0.4.3.gemspec
+I, [2014-01-02T21:47:01.507518 #4848]  INFO -- : 0:  sass (3.2.12) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/sass-3.2.12.gemspec
+I, [2014-01-02T21:47:01.518527 #4848]  INFO -- : 0:  thor (0.18.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/thor-0.18.1.gemspec
+I, [2014-01-02T21:47:01.520520 #4848]  INFO -- : 0:  bourbon (3.1.8) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bourbon-3.1.8.gemspec
+I, [2014-01-02T21:47:01.521520 #4848]  INFO -- : 0:  dm-core (1.2.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-core-1.2.1.gemspec
+I, [2014-01-02T21:47:01.523518 #4848]  INFO -- : 0:  dm-aggregates (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-aggregates-1.2.0.gemspec
+I, [2014-01-02T21:47:01.524518 #4848]  INFO -- : 0:  dm-constraints (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-constraints-1.2.0.gemspec
+I, [2014-01-02T21:47:01.525518 #4848]  INFO -- : 0:  dm-migrations (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-migrations-1.2.0.gemspec
+I, [2014-01-02T21:47:01.527531 #4848]  INFO -- : 0:  fastercsv (1.5.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/fastercsv-1.5.5.gemspec
+I, [2014-01-02T21:47:01.529549 #4848]  INFO -- : 0:  json (1.8.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/json-1.8.1.gemspec
+I, [2014-01-02T21:47:01.530547 #4848]  INFO -- : 0:  json_pure (1.8.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/json_pure-1.8.1.gemspec
+I, [2014-01-02T21:47:01.532519 #4848]  INFO -- : 0:  multi_json (1.8.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/multi_json-1.8.2.gemspec
+I, [2014-01-02T21:47:01.533522 #4848]  INFO -- : 0:  dm-serializer (1.2.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-serializer-1.2.2.gemspec
+I, [2014-01-02T21:47:01.535555 #4848]  INFO -- : 0:  dm-timestamps (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-timestamps-1.2.0.gemspec
+I, [2014-01-02T21:47:01.537521 #4848]  INFO -- : 0:  dm-transactions (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-transactions-1.2.0.gemspec
+I, [2014-01-02T21:47:01.538560 #4848]  INFO -- : 0:  stringex (1.5.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/stringex-1.5.1.gemspec
+I, [2014-01-02T21:47:01.540547 #4848]  INFO -- : 0:  uuidtools (2.1.4) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/uuidtools-2.1.4.gemspec
+I, [2014-01-02T21:47:01.542522 #4848]  INFO -- : 0:  dm-types (1.2.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-types-1.2.2.gemspec
+I, [2014-01-02T21:47:01.543519 #4848]  INFO -- : 0:  dm-validations (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-validations-1.2.0.gemspec
+I, [2014-01-02T21:47:01.545553 #4848]  INFO -- : 0:  data_mapper (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/data_mapper-1.2.0.gemspec
+I, [2014-01-02T21:47:01.546519 #4848]  INFO -- : 0:  data_objects (0.10.13) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/data_objects-0.10.13.gemspec
+I, [2014-01-02T21:47:01.548558 #4848]  INFO -- : 0:  dm-do-adapter (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-do-adapter-1.2.0.gemspec
+I, [2014-01-02T21:47:01.550521 #4848]  INFO -- : 0:  do_mysql (0.10.13) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/do_mysql-0.10.13.gemspec
+I, [2014-01-02T21:47:01.551529 #4848]  INFO -- : 0:  dm-mysql-adapter (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-mysql-adapter-1.2.0.gemspec
+I, [2014-01-02T21:47:01.553550 #4848]  INFO -- : 0:  mysql2 (0.3.14) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/mysql2-0.3.14.gemspec
+I, [2014-01-02T21:47:01.555563 #4848]  INFO -- : 0:  rack (1.5.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/rack-1.5.2.gemspec
+I, [2014-01-02T21:47:01.556524 #4848]  INFO -- : 0:  rack-protection (1.5.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/rack-protection-1.5.1.gemspec
+I, [2014-01-02T21:47:01.558520 #4848]  INFO -- : 0:  rack-test (0.6.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/rack-test-0.6.2.gemspec
+I, [2014-01-02T21:47:01.560526 #4848]  INFO -- : 0:  ripl (0.7.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/ripl-0.7.0.gemspec
+I, [2014-01-02T21:47:01.561520 #4848]  INFO -- : 0:  ripl-multi_line (0.3.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/ripl-multi_line-0.3.1.gemspec
+I, [2014-01-02T21:47:01.563531 #4848]  INFO -- : 0:  ripl-rack (0.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/ripl-rack-0.2.0.gemspec
+I, [2014-01-02T21:47:01.564538 #4848]  INFO -- : 0:  shotgun (0.9) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/shotgun-0.9.gemspec
+I, [2014-01-02T21:47:01.566535 #4848]  INFO -- : 0:  tilt (1.4.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/tilt-1.4.1.gemspec
+I, [2014-01-02T21:47:01.577521 #4848]  INFO -- : 0:  sinatra (1.4.4) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/sinatra-1.4.4.gemspec
+I, [2014-01-02T21:47:01.578539 #4848]  INFO -- : 0:  sinatra-contrib (1.4.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/sinatra-contrib-1.4.1.gemspec
+I, [2014-01-02T21:47:01.580535 #4848]  INFO -- : 0:  sinatra-flash (0.3.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/sinatra-flash-0.3.0.gemspec
+I, [2014-01-02T21:47:01.582552 #4848]  INFO -- : 0:  sinatra-redirect-with-flash (0.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/sinatra-redirect-with-flash-0.2.0.gemspec
+I, [2014-01-02T21:47:01.584523 #4848]  INFO -- : 0:  temple (0.6.7) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/temple-0.6.7.gemspec
+I, [2014-01-02T21:47:01.585531 #4848]  INFO -- : 0:  slim (2.0.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/slim-2.0.2.gemspec
+I, [2014-01-02T21:47:01.587535 #4848]  INFO -- : 0:  tux (0.3.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/tux-0.3.0.gemspec
+I, [2014-01-02T21:47:01.589535 #4848]  INFO -- : 0:  bundler (1.5.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bundler-1.5.1.gemspec
+I, [2014-01-03T09:29:18.876679 #4436]  INFO -- : 0:  addressable (2.3.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/addressable-2.3.5.gemspec
+I, [2014-01-03T09:29:20.788800 #4436]  INFO -- : 0:  backports (3.3.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/backports-3.3.5.gemspec
+I, [2014-01-03T09:29:22.089876 #4436]  INFO -- : 0:  bcrypt-ruby (3.1.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bcrypt-ruby-3.1.2-x86-mingw32.gemspec
+I, [2014-01-03T09:29:23.063958 #4436]  INFO -- : 0:  bond (0.4.3) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bond-0.4.3.gemspec
+I, [2014-01-03T09:29:25.026073 #4436]  INFO -- : 0:  sass (3.2.12) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/sass-3.2.12.gemspec
+I, [2014-01-03T09:29:26.316170 #4436]  INFO -- : 0:  thor (0.18.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/thor-0.18.1.gemspec
+I, [2014-01-03T09:29:27.567204 #4436]  INFO -- : 0:  bourbon (3.1.8) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bourbon-3.1.8.gemspec
+I, [2014-01-03T09:29:28.353255 #4436]  INFO -- : 0:  daemons (1.1.9) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/daemons-1.1.9.gemspec
+I, [2014-01-03T09:29:30.297364 #4436]  INFO -- : 0:  dm-core (1.2.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-core-1.2.1.gemspec
+I, [2014-01-03T09:29:30.942402 #4436]  INFO -- : 0:  dm-aggregates (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-aggregates-1.2.0.gemspec
+I, [2014-01-03T09:29:31.636443 #4436]  INFO -- : 0:  dm-constraints (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-constraints-1.2.0.gemspec
+I, [2014-01-03T09:29:32.412488 #4436]  INFO -- : 0:  dm-migrations (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-migrations-1.2.0.gemspec
+I, [2014-01-03T09:29:33.300559 #4436]  INFO -- : 0:  fastercsv (1.5.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/fastercsv-1.5.5.gemspec
+I, [2014-01-03T09:29:37.868823 #4436]  INFO -- : 0:  json (1.8.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/json-1.8.1.gemspec
+I, [2014-01-03T09:29:39.424912 #4436]  INFO -- : 0:  json_pure (1.8.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/json_pure-1.8.1.gemspec
+I, [2014-01-03T09:29:40.568989 #4436]  INFO -- : 0:  multi_json (1.8.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/multi_json-1.8.2.gemspec
+I, [2014-01-03T09:29:41.298022 #4436]  INFO -- : 0:  dm-serializer (1.2.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-serializer-1.2.2.gemspec
+I, [2014-01-03T09:29:41.887057 #4436]  INFO -- : 0:  dm-timestamps (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-timestamps-1.2.0.gemspec
+I, [2014-01-03T09:29:42.540132 #4436]  INFO -- : 0:  dm-transactions (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-transactions-1.2.0.gemspec
+I, [2014-01-03T09:29:43.541155 #4436]  INFO -- : 0:  stringex (1.5.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/stringex-1.5.1.gemspec
+I, [2014-01-03T09:29:44.642224 #4436]  INFO -- : 0:  uuidtools (2.1.4) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/uuidtools-2.1.4.gemspec
+I, [2014-01-03T09:29:45.385295 #4436]  INFO -- : 0:  dm-types (1.2.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-types-1.2.2.gemspec
+I, [2014-01-03T09:29:46.365326 #4436]  INFO -- : 0:  dm-validations (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-validations-1.2.0.gemspec
+I, [2014-01-03T09:29:46.915369 #4436]  INFO -- : 0:  data_mapper (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/data_mapper-1.2.0.gemspec
+I, [2014-01-03T09:29:48.182434 #4436]  INFO -- : 0:  data_objects (0.10.13) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/data_objects-0.10.13.gemspec
+I, [2014-01-03T09:29:48.793478 #4436]  INFO -- : 0:  dm-do-adapter (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-do-adapter-1.2.0.gemspec
+I, [2014-01-03T09:29:50.448615 #4436]  INFO -- : 0:  do_mysql (0.10.13) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/do_mysql-0.10.13-x86-mingw32.gemspec
+I, [2014-01-03T09:29:51.040601 #4436]  INFO -- : 0:  dm-mysql-adapter (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-mysql-adapter-1.2.0.gemspec
+I, [2014-01-03T09:29:51.042696 #4436]  INFO -- : 0:  eventmachine (1.0.3) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/eventmachine-1.0.3-x86-mingw32.gemspec
+I, [2014-01-03T09:29:51.887657 #4436]  INFO -- : 0:  em-websocket (0.3.8) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/em-websocket-0.3.8.gemspec
+E, [2014-01-03T09:30:20.387358 #4436] ERROR -- : Gem::Installer::ExtensionBuildError: ERROR: Failed to build gem native extension.
+
+    C:/Ruby200/bin/ruby.exe extconf.rb 
+checking for ruby/thread.h... yes
+checking for rb_thread_call_without_gvl() in ruby/thread.h... yes
+checking for rb_thread_blocking_region()... yes
+checking for rb_wait_for_single_fd()... yes
+checking for rb_hash_dup()... yes
+checking for rb_intern3()... yes
+checking for mysql_query() in -lmysqlclient... no
+checking for main() in -lm... yes
+checking for mysql_query() in -lmysqlclient... no
+checking for main() in -lz... no
+checking for mysql_query() in -lmysqlclient... no
+checking for main() in -lsocket... no
+checking for mysql_query() in -lmysqlclient... no
+checking for main() in -lnsl... no
+checking for mysql_query() in -lmysqlclient... no
+checking for main() in -lmygcc... no
+checking for mysql_query() in -lmysqlclient... no
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=C:/Ruby200/bin/ruby
+	--with-mysql-dir
+	--without-mysql-dir
+	--with-mysql-include
+	--without-mysql-include=${mysql-dir}/include
+	--with-mysql-lib
+	--without-mysql-lib=${mysql-dir}/
+	--with-mysql-config
+	--without-mysql-config
+	--with-mysql-dir
+	--without-mysql-dir
+	--with-mysql-include
+	--without-mysql-include=${mysql-dir}/include
+	--with-mysql-lib
+	--without-mysql-lib=${mysql-dir}/
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+	--with-mlib
+	--without-mlib
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+	--with-zlib
+	--without-zlib
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+	--with-socketlib
+	--without-socketlib
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+	--with-nsllib
+	--without-nsllib
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+	--with-mygcclib
+	--without-mygcclib
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+
+
+Gem files will remain installed in C:/Ruby200/lib/ruby/gems/2.0.0/gems/mysql2-0.3.14 for inspection.
+Results logged to C:/Ruby200/lib/ruby/gems/2.0.0/gems/mysql2-0.3.14/ext/mysql2/gem_make.out
+
+C:/Ruby200/lib/ruby/2.0.0/rubygems/ext/builder.rb:62:in `run'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:39:in `block in build'  \nC:/Ruby200/lib/ruby/2.0.0/tempfile.rb:324:in `open'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:19:in `build'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:689:in `block (3 levels) in build_extensions'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:688:in `chdir'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:688:in `block (2 levels) in build_extensions'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:687:in `synchronize'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:687:in `block in build_extensions'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:662:in `each'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:662:in `build_extensions'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:227:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:101:in `block in install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:94:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:295:in `block in install_sequentially'  \nC:/Ruby200/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \nC:/Ruby200/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:294:in `install_sequentially'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:97:in `run'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:15:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/cli.rb:257:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/command.rb:27:in `run'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor.rb:363:in `dispatch'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/base.rb:438:in `start'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/cli.rb:10:in `start'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/bin/bundle:22:in `block in <top (required)>'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/bin/bundle:22:in `<top (required)>'  \nC:/Ruby200/bin/bundle:23:in `load'  \nC:/Ruby200/bin/bundle:23:in `<main>'
+I, [2014-01-03T09:39:54.190668 #4936]  INFO -- : 0:  addressable (2.3.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/addressable-2.3.5.gemspec
+I, [2014-01-03T09:39:54.192669 #4936]  INFO -- : 0:  backports (3.3.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/backports-3.3.5.gemspec
+I, [2014-01-03T09:39:54.194642 #4936]  INFO -- : 0:  bcrypt-ruby (3.1.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bcrypt-ruby-3.1.2-x86-mingw32.gemspec
+I, [2014-01-03T09:39:54.196647 #4936]  INFO -- : 0:  bond (0.4.3) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bond-0.4.3.gemspec
+I, [2014-01-03T09:39:54.197637 #4936]  INFO -- : 0:  sass (3.2.12) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/sass-3.2.12.gemspec
+I, [2014-01-03T09:39:54.199687 #4936]  INFO -- : 0:  thor (0.18.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/thor-0.18.1.gemspec
+I, [2014-01-03T09:39:54.201648 #4936]  INFO -- : 0:  bourbon (3.1.8) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bourbon-3.1.8.gemspec
+I, [2014-01-03T09:39:54.202691 #4936]  INFO -- : 0:  daemons (1.1.9) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/daemons-1.1.9.gemspec
+I, [2014-01-03T09:39:54.204644 #4936]  INFO -- : 0:  dm-core (1.2.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-core-1.2.1.gemspec
+I, [2014-01-03T09:39:54.206661 #4936]  INFO -- : 0:  dm-aggregates (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-aggregates-1.2.0.gemspec
+I, [2014-01-03T09:39:54.207650 #4936]  INFO -- : 0:  dm-constraints (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-constraints-1.2.0.gemspec
+I, [2014-01-03T09:39:54.209653 #4936]  INFO -- : 0:  dm-migrations (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-migrations-1.2.0.gemspec
+I, [2014-01-03T09:39:54.211643 #4936]  INFO -- : 0:  fastercsv (1.5.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/fastercsv-1.5.5.gemspec
+I, [2014-01-03T09:39:54.213639 #4936]  INFO -- : 0:  json (1.8.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/json-1.8.1.gemspec
+I, [2014-01-03T09:39:54.214673 #4936]  INFO -- : 0:  json_pure (1.8.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/json_pure-1.8.1.gemspec
+I, [2014-01-03T09:39:54.216675 #4936]  INFO -- : 0:  multi_json (1.8.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/multi_json-1.8.2.gemspec
+I, [2014-01-03T09:39:54.218642 #4936]  INFO -- : 0:  dm-serializer (1.2.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-serializer-1.2.2.gemspec
+I, [2014-01-03T09:39:54.219689 #4936]  INFO -- : 0:  dm-timestamps (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-timestamps-1.2.0.gemspec
+I, [2014-01-03T09:39:54.221645 #4936]  INFO -- : 0:  dm-transactions (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-transactions-1.2.0.gemspec
+I, [2014-01-03T09:39:54.223670 #4936]  INFO -- : 0:  stringex (1.5.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/stringex-1.5.1.gemspec
+I, [2014-01-03T09:39:54.224686 #4936]  INFO -- : 0:  uuidtools (2.1.4) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/uuidtools-2.1.4.gemspec
+I, [2014-01-03T09:39:54.226663 #4936]  INFO -- : 0:  dm-types (1.2.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-types-1.2.2.gemspec
+I, [2014-01-03T09:39:54.227644 #4936]  INFO -- : 0:  dm-validations (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-validations-1.2.0.gemspec
+I, [2014-01-03T09:39:54.229647 #4936]  INFO -- : 0:  data_mapper (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/data_mapper-1.2.0.gemspec
+I, [2014-01-03T09:39:54.231671 #4936]  INFO -- : 0:  data_objects (0.10.13) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/data_objects-0.10.13.gemspec
+I, [2014-01-03T09:39:54.232654 #4936]  INFO -- : 0:  dm-do-adapter (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-do-adapter-1.2.0.gemspec
+I, [2014-01-03T09:39:54.234654 #4936]  INFO -- : 0:  do_mysql (0.10.13) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/do_mysql-0.10.13-x86-mingw32.gemspec
+I, [2014-01-03T09:39:54.236646 #4936]  INFO -- : 0:  dm-mysql-adapter (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-mysql-adapter-1.2.0.gemspec
+I, [2014-01-03T09:39:54.238684 #4936]  INFO -- : 0:  eventmachine (1.0.3) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/eventmachine-1.0.3-x86-mingw32.gemspec
+I, [2014-01-03T09:39:54.239647 #4936]  INFO -- : 0:  em-websocket (0.3.8) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/em-websocket-0.3.8.gemspec
+I, [2014-01-03T09:39:54.241646 #4936]  INFO -- : 0:  mysql (2.9.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/mysql-2.9.1-x86-mingw32.gemspec
+I, [2014-01-03T09:39:55.890742 #4936]  INFO -- : 0:  rack (1.5.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/rack-1.5.2.gemspec
+I, [2014-01-03T09:39:56.917813 #4936]  INFO -- : 0:  rack-protection (1.5.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/rack-protection-1.5.1.gemspec
+I, [2014-01-03T09:39:57.542874 #4936]  INFO -- : 0:  rack-test (0.6.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/rack-test-0.6.2.gemspec
+I, [2014-01-03T09:39:58.286887 #4936]  INFO -- : 0:  ripl (0.7.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/ripl-0.7.0.gemspec
+I, [2014-01-03T09:39:59.207948 #4936]  INFO -- : 0:  ripl-multi_line (0.3.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/ripl-multi_line-0.3.1.gemspec
+I, [2014-01-03T09:39:59.873991 #4936]  INFO -- : 0:  ripl-rack (0.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/ripl-rack-0.2.0.gemspec
+I, [2014-01-03T09:40:00.695031 #4936]  INFO -- : 0:  shotgun (0.9) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/shotgun-0.9.gemspec
+I, [2014-01-03T09:40:02.318127 #4936]  INFO -- : 0:  tilt (1.4.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/tilt-1.4.1.gemspec
+I, [2014-01-03T09:40:03.724212 #4936]  INFO -- : 0:  sinatra (1.4.4) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/sinatra-1.4.4.gemspec
+I, [2014-01-03T09:40:04.905282 #4936]  INFO -- : 0:  sinatra-contrib (1.4.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/sinatra-contrib-1.4.1.gemspec
+I, [2014-01-03T09:40:05.571321 #4936]  INFO -- : 0:  sinatra-flash (0.3.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/sinatra-flash-0.3.0.gemspec
+I, [2014-01-03T09:40:06.174377 #4936]  INFO -- : 0:  sinatra-redirect-with-flash (0.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/sinatra-redirect-with-flash-0.2.0.gemspec
+I, [2014-01-03T09:40:10.724627 #4936]  INFO -- : 0:  thin (1.6.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/thin-1.6.1.gemspec
+I, [2014-01-03T09:40:11.733689 #4936]  INFO -- : 0:  sinatra-websocket (0.3.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/sinatra-websocket-0.3.0.gemspec
+I, [2014-01-03T09:40:13.004764 #4936]  INFO -- : 0:  temple (0.6.7) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/temple-0.6.7.gemspec
+I, [2014-01-03T09:40:14.095832 #4936]  INFO -- : 0:  slim (2.0.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/slim-2.0.2.gemspec
+I, [2014-01-03T09:40:14.731869 #4936]  INFO -- : 0:  tux (0.3.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/tux-0.3.0.gemspec
+I, [2014-01-03T09:40:14.732869 #4936]  INFO -- : 0:  bundler (1.5.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bundler-1.5.1.gemspec
+I, [2014-01-03T09:52:48.949101 #4456]  INFO -- : 0:  addressable (2.3.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/addressable-2.3.5.gemspec
+I, [2014-01-03T09:52:48.951106 #4456]  INFO -- : 0:  backports (3.3.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/backports-3.3.5.gemspec
+I, [2014-01-03T09:52:48.953087 #4456]  INFO -- : 0:  bcrypt-ruby (3.1.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bcrypt-ruby-3.1.2-x86-mingw32.gemspec
+I, [2014-01-03T09:52:48.955079 #4456]  INFO -- : 0:  bond (0.4.3) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bond-0.4.3.gemspec
+I, [2014-01-03T09:52:48.957079 #4456]  INFO -- : 0:  sass (3.2.12) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/sass-3.2.12.gemspec
+I, [2014-01-03T09:52:48.958080 #4456]  INFO -- : 0:  thor (0.18.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/thor-0.18.1.gemspec
+I, [2014-01-03T09:52:48.960076 #4456]  INFO -- : 0:  bourbon (3.1.8) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/bourbon-3.1.8.gemspec
+I, [2014-01-03T09:52:48.978078 #4456]  INFO -- : 0:  daemons (1.1.9) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/daemons-1.1.9.gemspec
+I, [2014-01-03T09:52:48.979094 #4456]  INFO -- : 0:  dm-core (1.2.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-core-1.2.1.gemspec
+I, [2014-01-03T09:52:48.981078 #4456]  INFO -- : 0:  dm-aggregates (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-aggregates-1.2.0.gemspec
+I, [2014-01-03T09:52:48.982081 #4456]  INFO -- : 0:  dm-constraints (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-constraints-1.2.0.gemspec
+I, [2014-01-03T09:52:48.983080 #4456]  INFO -- : 0:  dm-migrations (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-migrations-1.2.0.gemspec
+I, [2014-01-03T09:52:48.985078 #4456]  INFO -- : 0:  fastercsv (1.5.5) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/fastercsv-1.5.5.gemspec
+I, [2014-01-03T09:52:48.986080 #4456]  INFO -- : 0:  json (1.8.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/json-1.8.1.gemspec
+I, [2014-01-03T09:52:48.988079 #4456]  INFO -- : 0:  json_pure (1.8.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/json_pure-1.8.1.gemspec
+I, [2014-01-03T09:52:48.989081 #4456]  INFO -- : 0:  multi_json (1.8.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/multi_json-1.8.2.gemspec
+I, [2014-01-03T09:52:48.990081 #4456]  INFO -- : 0:  dm-serializer (1.2.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-serializer-1.2.2.gemspec
+I, [2014-01-03T09:52:48.992081 #4456]  INFO -- : 0:  dm-timestamps (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-timestamps-1.2.0.gemspec
+I, [2014-01-03T09:52:48.993081 #4456]  INFO -- : 0:  dm-transactions (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-transactions-1.2.0.gemspec
+I, [2014-01-03T09:52:48.994083 #4456]  INFO -- : 0:  stringex (1.5.1) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/stringex-1.5.1.gemspec
+I, [2014-01-03T09:52:48.995081 #4456]  INFO -- : 0:  uuidtools (2.1.4) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/uuidtools-2.1.4.gemspec
+I, [2014-01-03T09:52:48.997083 #4456]  INFO -- : 0:  dm-types (1.2.2) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-types-1.2.2.gemspec
+I, [2014-01-03T09:52:48.998079 #4456]  INFO -- : 0:  dm-validations (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-validations-1.2.0.gemspec
+I, [2014-01-03T09:52:48.999079 #4456]  INFO -- : 0:  data_mapper (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/data_mapper-1.2.0.gemspec
+I, [2014-01-03T09:52:49.001079 #4456]  INFO -- : 0:  data_objects (0.10.13) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/data_objects-0.10.13.gemspec
+I, [2014-01-03T09:52:49.002077 #4456]  INFO -- : 0:  dm-do-adapter (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-do-adapter-1.2.0.gemspec
+I, [2014-01-03T09:52:49.004078 #4456]  INFO -- : 0:  do_mysql (0.10.13) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/do_mysql-0.10.13-x86-mingw32.gemspec
+I, [2014-01-03T09:52:49.005079 #4456]  INFO -- : 0:  dm-mysql-adapter (1.2.0) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/dm-mysql-adapter-1.2.0.gemspec
+I, [2014-01-03T09:52:49.006081 #4456]  INFO -- : 0:  eventmachine (1.0.3) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/eventmachine-1.0.3-x86-mingw32.gemspec
+I, [2014-01-03T09:52:49.007083 #4456]  INFO -- : 0:  em-websocket (0.3.8) from C:/Ruby200/lib/ruby/gems/2.0.0/specifications/em-websocket-0.3.8.gemspec
+E, [2014-01-03T09:53:16.687733 #4456] ERROR -- : Gem::Installer::ExtensionBuildError: ERROR: Failed to build gem native extension.
+
+    C:/Ruby200/bin/ruby.exe extconf.rb 
+checking for ruby/thread.h... yes
+checking for rb_thread_call_without_gvl() in ruby/thread.h... yes
+checking for rb_thread_blocking_region()... yes
+checking for rb_wait_for_single_fd()... yes
+checking for rb_hash_dup()... yes
+checking for rb_intern3()... yes
+checking for mysql_query() in -lmysqlclient... no
+checking for main() in -lm... yes
+checking for mysql_query() in -lmysqlclient... no
+checking for main() in -lz... no
+checking for mysql_query() in -lmysqlclient... no
+checking for main() in -lsocket... no
+checking for mysql_query() in -lmysqlclient... no
+checking for main() in -lnsl... no
+checking for mysql_query() in -lmysqlclient... no
+checking for main() in -lmygcc... no
+checking for mysql_query() in -lmysqlclient... no
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=C:/Ruby200/bin/ruby
+	--with-mysql-dir
+	--without-mysql-dir
+	--with-mysql-include
+	--without-mysql-include=${mysql-dir}/include
+	--with-mysql-lib
+	--without-mysql-lib=${mysql-dir}/
+	--with-mysql-config
+	--without-mysql-config
+	--with-mysql-dir
+	--without-mysql-dir
+	--with-mysql-include
+	--without-mysql-include=${mysql-dir}/include
+	--with-mysql-lib
+	--without-mysql-lib=${mysql-dir}/
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+	--with-mlib
+	--without-mlib
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+	--with-zlib
+	--without-zlib
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+	--with-socketlib
+	--without-socketlib
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+	--with-nsllib
+	--without-nsllib
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+	--with-mygcclib
+	--without-mygcclib
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+
+
+Gem files will remain installed in C:/Ruby200/lib/ruby/gems/2.0.0/gems/mysql2-0.3.14 for inspection.
+Results logged to C:/Ruby200/lib/ruby/gems/2.0.0/gems/mysql2-0.3.14/ext/mysql2/gem_make.out
+
+C:/Ruby200/lib/ruby/2.0.0/rubygems/ext/builder.rb:62:in `run'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:39:in `block in build'  \nC:/Ruby200/lib/ruby/2.0.0/tempfile.rb:324:in `open'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:19:in `build'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:689:in `block (3 levels) in build_extensions'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:688:in `chdir'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:688:in `block (2 levels) in build_extensions'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:687:in `synchronize'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:687:in `block in build_extensions'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:662:in `each'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:662:in `build_extensions'  \nC:/Ruby200/lib/ruby/2.0.0/rubygems/installer.rb:227:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:101:in `block in install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:94:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:295:in `block in install_sequentially'  \nC:/Ruby200/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \nC:/Ruby200/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:294:in `install_sequentially'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:97:in `run'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:15:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/cli.rb:257:in `install'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/command.rb:27:in `run'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor.rb:363:in `dispatch'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/base.rb:438:in `start'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/cli.rb:10:in `start'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/bin/bundle:22:in `block in <top (required)>'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \nC:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/bin/bundle:22:in `<top (required)>'  \nC:/Ruby200/bin/bundle:23:in `load'  \nC:/Ruby200/bin/bundle:23:in `<main>'

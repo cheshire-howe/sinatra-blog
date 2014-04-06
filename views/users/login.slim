@@ -1,0 +1,23 @@
+h1 Login
+
+- if flash[:error]  
+  .alert.alert-error
+    button type="button" class="close" data-dismiss="alert" &times;
+    ul
+      - flash[:error].each do |error|
+        li == error
+  
+form action="/login" method="post" role="form"
+  .form-group
+    label for="email" Email
+    input type="text" name="email" value="#{params[:email]}"
+
+  .form-group
+    label for="password" Password
+    input type="password" name="password"
+
+  .checkbox
+    label
+      input type="checkbox" name="remember_me" value="true" checked="true" Keep me logged in
+
+  button type="submit" Login

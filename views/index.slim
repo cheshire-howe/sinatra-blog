@@ -1,0 +1,21 @@
+- if flash[:info]
+  .alert.alert-info
+    button type="button" class="close" data-dismiss="alert" &times;
+    == styled_flash
+
+- if current_user
+  div ng-app="Sinatra"
+    == slim :'posts/posts'
+  - if current_user.admin?
+    p Current User is an admin
+- else
+  .login
+    == slim :'users/login'
+  .signup
+    == slim :'users/signup'
+  .home-msg
+    h2 To access the app please choose one of the options
+
+/ - if current_user
+/   div ng-app="Sinatra"
+/     div ng-view=""

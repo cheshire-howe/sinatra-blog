@@ -1,0 +1,88 @@
+@import 'bourbon/bourbon'
+
+form, input, select, textarea
+  margin: 0
+  padding: 0
+
+.box
+  //margin: 10px auto
+  //padding: 8px
+  //width: 100%
+  background: #222
+  position: relative
+  top: 10px
+  border: 1px solid #262626
+  border-radius: 6px
+  box-shadow: 2px 2px 10px #333
+  h1
+    color: #e5dcb7
+    font-size: 112.5%
+    text-transform: uppercase
+    padding: 5px 0 5px 5px
+    border-bottom: 1px solid #161712
+    border-top: 1px solid #161712
+  label
+    width: 100%
+    display: block
+    background: #1C1C1C
+    border-top: 1px solid #262626
+    border-bottom: 1px solid #161712
+    padding: 10px 0
+    .text_label
+      display: block
+      color: #bbb
+      font-size: 75%
+      float: left
+      width: 20%
+      text-align: right
+      padding: 5px 0
+    .checkbox_label
+      width: 25%
+      color: #bbb
+      font-size: 12px
+      text-align: right
+      padding: 5px 20px
+  .input_text
+    margin-left: 2%
+    padding: 10px 7px 10px 7px
+    width: 70%
+    color: #bbb
+    background: #262626
+    border-bottom: 1px double #171717
+    border-top: 1px double #171717
+    border-left: 1px double #333
+    border-right: 1px double #333
+  .checkbox
+    margin-left: 20%
+  .textarea
+    margin-left: 2%
+    padding: 7px
+    width: 70%
+    color: #bbb
+    background: #262626
+    border-bottom: 1px double #171717
+    border-top: 1px double #171717
+    border-left: 1px double #333
+    border-right: 1px double #333
+    overflow: hidden
+    height: 150px
+    resize: vertical
+    overflow: auto
+  button
+    @include button(shiny)
+    width: 25%
+    margin-left: 22%
+    margin-top: 8px
+    margin-bottom: 8px
+    color: #fff
+  .error
+    border: 1px solid shade(red, 40%)
+    padding: 3px
+    font-size: 80%
+    color: #bbb
+    margin-bottom: 8px
+    .red
+      color: red
+    ul
+      list-style-type: none
+      margin-left: 15px

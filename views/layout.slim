@@ -1,0 +1,13 @@
+doctype 5
+html
+  head
+    == slim :'partials/meta'
+  body
+    .page.container-fluid
+      .row-fluid
+        == slim :'partials/nav'
+
+      .row-fluid
+        section.span12
+          .content
+            == yield
